@@ -9,6 +9,7 @@ class Contact extends Component {
                 <h1 className='subtopic'>Contact Me</h1>
                 <h3>Email : paulolopesreizinho@gmail.com</h3>
                 <h3>Tel/Whatsapp : +41 78 798 95 33</h3>
+                <button className='btn btn-secondary'><a href="https://drive.google.com/open?id=1qHhUEra7WGUKui3xFG132o9cymJO7xTc" target='_blank' rel='noopener noreferrer'>PDF CV</a></button>
                 <Social />
             </div>
         )

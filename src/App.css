@@ -140,6 +140,19 @@ p {
   margin: 30px;
 }
 
+.btn {
+  margin-left: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn a:hover {
+  color: gray;
+}
+
 @media all and (max-width: 450px) {
   :root {
     --fontsize-nav: 1rem;
