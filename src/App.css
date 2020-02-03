@@ -110,6 +110,7 @@ a {
 
 p {
   font-size: var(--fontsize-p);
+  line-height: 26px;
 }
 
 h1,
