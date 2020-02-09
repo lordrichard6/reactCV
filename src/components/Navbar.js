@@ -19,7 +19,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
-                <ul>
+                <ul id='menu'>
                     <NavItem item='Home' toLink='/' activec={this.activeitem} />
                     <NavItem item='About' toLink='/about' activec={this.activeitem} />
                     <NavItem item='Education' toLink='/education' activec={this.activeitem} />

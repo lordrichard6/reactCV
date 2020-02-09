@@ -175,11 +175,14 @@ p {
   }
 
   nav ul {
-    display: flex;
+    /* display: flex; */
   }
 
   nav ul li {
     margin: 10px;
+  }
+  .profilepic {
+    margin: 0;
   }
 
   .social {
