@@ -15,7 +15,8 @@
 
 body {
   font-family: 'Raleway';
-  color: aliceblue;
+  color: #353130;
+  /* color: aliceblue; */
 }
 
 .App {
@@ -45,7 +46,8 @@ body {
 /* .condiv class is for the right side content */
 .condiv {
   padding: 100px;
-  background-color: #1B1D1E;
+  color: #353130;
+  /* background-color: #1B1D1E; */
   flex: var(--condiv-flex);
 }
 /* .condiv class is for the right side content */
@@ -53,8 +55,9 @@ body {
 nav {
   padding: 60px 30px 0 30px;
   flex: var(--sidebar-flex);
-  background: rgb(128, 14, 48);
-  background: linear-gradient(180deg, rgba(128, 14, 48,1) 50%, rgba(11, 3, 127,1) 80%);
+  background: #353130;
+  /* background: rgb(128, 14, 48); */
+  /* background: linear-gradient(180deg, rgba(128, 14, 48,1) 50%, rgba(11, 3, 127,1) 80%); */
 }
 
 nav ul {
@@ -124,14 +127,21 @@ p {
 
 /* education */
 .widecard {
+  color: white;
   border: 0px solid #9a9b9c;
+  background: #353130;
+  border-radius: 6px;
   display: flex;
   margin: 30px 0 30px 0;
 }
 
+.widecard a {
+  /* color: #353130; */
+}
+
 .widecard:hover {
-  color: aliceblue;
-  background-color: #181A1B;
+  /* background-color: #181A1B; */
+  background: #d4d5d6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
@@ -142,6 +152,11 @@ p {
 
 .btn {
   margin-left: 10px;
+  background-color: #353130;
+}
+
+.btn:hover {
+  background-color: #929292;
 }
 
 .btn a {
@@ -150,7 +165,7 @@ p {
 }
 
 .btn a:hover {
-  color: gray;
+  color: #e4e4e4;
 }
 
 @media all and (max-width: 450px) {
@@ -160,20 +175,28 @@ p {
     --typing-font: 2rem;
   }
 
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
   .App {
     flex-direction: column;
   }
 
   nav {
     padding: 30px;
-    background: rgb(128, 14, 48);
-    background: linear-gradient(90deg, rgba(128, 14, 48,1) 50%, rgba(11, 3, 127,1) 80%);
+    /* background: rgb(128, 14, 48); */
+    /* background: linear-gradient(90deg, rgba(128, 14, 48,1) 50%, rgba(11, 3, 127,1) 80%); */
   }
 
   .condiv {
     padding: 50px;
   }
-
+  
   nav ul {
     /* display: flex; */
   }
