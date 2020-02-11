@@ -6,6 +6,7 @@ import Education from './contents/Education';
 import Experience from './contents/Experience';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
+import Projects from './contents/Projects';
 
 import Navbar from './components/Navbar';
 import './App.css';
@@ -25,11 +26,14 @@ function App() {
         <Route exact path='/education'>
           <Education />
         </Route>
+        <Route exact path='/skills'>
+          <Skills />
+        </Route>
         <Route exact path='/experience'>
           <Experience />
         </Route>
-        <Route exact path='/skills'>
-          <Skills />
+        <Route exact path='/projects'>
+          <Projects />
         </Route>
         <Route exact path='/Contact'>
           <Contact />

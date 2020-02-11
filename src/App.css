@@ -16,7 +16,6 @@
 body {
   font-family: 'Raleway';
   color: #353130;
-  /* color: aliceblue; */
 }
 
 .App {
@@ -47,7 +46,6 @@ body {
 .condiv {
   padding: 100px;
   color: #353130;
-  /* background-color: #1B1D1E; */
   flex: var(--condiv-flex);
 }
 /* .condiv class is for the right side content */
@@ -56,8 +54,6 @@ nav {
   padding: 60px 30px 0 30px;
   flex: var(--sidebar-flex);
   background: #353130;
-  /* background: rgb(128, 14, 48); */
-  /* background: linear-gradient(180deg, rgba(128, 14, 48,1) 50%, rgba(11, 3, 127,1) 80%); */
 }
 
 nav ul {
@@ -75,6 +71,10 @@ nav ul li {
 a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .subtopic {
@@ -125,22 +125,18 @@ p {
 }
 /* about */
 
-/* education */
+/* education and experience */
 .widecard {
   color: white;
-  border: 0px solid #9a9b9c;
+  /* border: 0px solid #9a9b9c; */
   background: #353130;
   border-radius: 6px;
   display: flex;
   margin: 30px 0 30px 0;
 }
 
-.widecard a {
-  /* color: #353130; */
-}
-
 .widecard:hover {
-  /* background-color: #181A1B; */
+  color: #353130;
   background: #d4d5d6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -149,6 +145,23 @@ p {
   list-style-type: none;
   margin: 30px;
 }
+/* education and experience */
+
+/* projects */
+.projectcard {
+  border-radius: 6px;
+  background-size: cover;
+  min-height: 7rem;
+}
+
+.projectcard a {
+  color: aliceblue;
+}
+
+.projectcard:hover {
+  background: #353130!important;
+}
+/* projects */
 
 .btn {
   margin-left: 10px;
@@ -189,8 +202,6 @@ p {
 
   nav {
     padding: 30px;
-    /* background: rgb(128, 14, 48); */
-    /* background: linear-gradient(90deg, rgba(128, 14, 48,1) 50%, rgba(11, 3, 127,1) 80%); */
   }
 
   .condiv {
@@ -218,5 +229,8 @@ p {
 
   .social i {
     padding-right: 0;
+  }
+  .projectcard {
+    background-size: initial;
   }
 }

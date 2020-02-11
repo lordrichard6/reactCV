@@ -23,8 +23,9 @@ class Navbar extends Component {
                     <NavItem item='Home' toLink='/' activec={this.activeitem} />
                     <NavItem item='About' toLink='/about' activec={this.activeitem} />
                     <NavItem item='Education' toLink='/education' activec={this.activeitem} />
-                    <NavItem item='Experience' toLink='/experience' activec={this.activeitem} />
                     <NavItem item='Skills' toLink='/skills' activec={this.activeitem} />
+                    <NavItem item='Experience' toLink='/experience' activec={this.activeitem} />
+                    <NavItem item='Projects' toLink='/projects' activec={this.activeitem} />
                     <NavItem item='Contact' toLink='/contact' activec={this.activeitem} />
                 </ul>
             </nav>
