@@ -6,12 +6,13 @@ class About extends Component {
         return (
             <div className='condiv'>
                 <h1 className='subtopic'>About me</h1>
-                <h4>Olá,</h4>
-                <h1>I'm Paulo R. Lopes Reizinho </h1>
+                <h4>Olá, my name is</h4>
+                <h2>Paulo R. Lopes Reizinho </h2>
+                <h4>and i'm a</h4>
                 <h3>Front-end <u>Developer</u></h3>
                 <br/>
                 <p>
-                Oi, first of all welcome to cv react page, i came from Portugal long time ago searching for ambition,<br/> 
+                First of all welcome to cv react page, i came from Portugal long time ago searching for ambition,<br/> 
                 i've studied administration, which i found to be boring by the end of it,<br/>
                 then tried some jobs but none gave me pleasure in the long haul,<br/>
                 then i found web development and discover that i really like to build stuff that could be used by millions... <br/> 

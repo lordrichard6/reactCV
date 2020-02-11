@@ -147,6 +147,14 @@ p {
 }
 /* education and experience */
 
+/* work projetcs */
+.workproj a {
+  color: #353130;
+  padding-left: 4rem;
+}
+
+/* work projetcs */
+
 /* projects */
 .projectcard {
   border-radius: 6px;
@@ -205,7 +213,7 @@ p {
   }
 
   .condiv {
-    padding: 50px;
+    padding: 20px 40px;
   }
   
   nav ul {
@@ -219,18 +227,38 @@ p {
     margin: 0;
   }
 
+  .typingeffect {
+    font-size: 1.4rem;
+  }
+
   .social {
     left: 0;
     width: 100vw;
     display: flex;
     justify-content: space-around;
-    bottom: 30px;
+    bottom: 10px;
   }
 
   .social i {
     padding-right: 0;
   }
+
+  .widecard {
+    display: block;
+  }
+
+  .widecard .btn {
+    margin: 0 auto;
+  } 
+
+  .workproj a {
+    padding-left: 1rem;
+  }
+
   .projectcard {
     background-size: initial;
+  }
+  .contact h3 {
+    font-size: 1.2rem;
   }
 }

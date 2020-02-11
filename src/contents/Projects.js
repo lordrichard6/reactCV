@@ -13,7 +13,7 @@ class Projects extends Component {
     render() {
         return (
             <div className='condiv'>
-                <h1 className='subtopic'>Projects</h1>
+                <h1 className='subtopic'>Personal Projects</h1>
                 <ProjectCard back={img1} title='Face Detection App' link='https://reizinho-face-detect-app.herokuapp.com/' tool='React' text=''/>
                 <ProjectCard back={img2} title='RoboFriends' link='https://lordrichard6.github.io/robofriends/' tool='React-Redux' text=''/>
                 <ProjectCard back={img3} title='Netflix' link='https://pauloreizinho-netflix.netlify.com/' tool='HTML5, CSS' text=''/>
