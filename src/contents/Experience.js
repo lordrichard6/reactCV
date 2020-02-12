@@ -6,7 +6,7 @@ import WorkProj from '../components/WorkProj';
 class Experience extends Component {
     render() {
         return (
-            <div className='condiv'>
+            <div className='condiv experience'>
                 <h1 className='subtopic'>Experience</h1>
                 <Widecard 
                     title='Front Dev Intern' 
@@ -19,7 +19,8 @@ class Experience extends Component {
                 <WorkProj proj='https://bezahlbare-wohnungen.ch/' name='- bezahlbare Wohnungen' />
                 <WorkProj proj='http://www.protier.ch/' name='- protier' />
                 <WorkProj proj='https://litra.ch/de/' name='- litra' />
-                <WorkProj proj='https://feinheit.ch/' name='- Feinheit' />  
+                <WorkProj proj='https://feinheit.ch/' name='- Feinheit' />
+                <button className='btn btn-secondary'><a href="https://drive.google.com/open?id=1dTdrq0Ptp1WTh_H5SF1CbshIhcXoZPYq" target='_blank' rel='noopener noreferrer'>Recomendation Letter</a></button>  
             </div>
         )
     }
