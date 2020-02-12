@@ -78,7 +78,7 @@ a:hover {
 }
 
 .subtopic {
-  margin: 10px 10px 30px 10px !important;
+  /* margin: 10px 10px 30px 10px !important; */
 }
 
 /* active class */
@@ -193,6 +193,19 @@ p {
   color: #e4e4e4;
 }
 
+#menu input[type="checkbox"], 
+#menu ul span.drop-icon {
+  display: none;
+}
+
+.nav .menu-icon {
+  display: none;
+}
+
+.nav .menu-btn {
+  display: none;
+}
+
 @media all and (max-width: 450px) {
   :root {
     --fontsize-nav: 1rem;
@@ -218,6 +231,7 @@ p {
 
   .condiv {
     padding: 20px 40px;
+    margin-top: 4rem;
   }
   
   nav ul {
@@ -265,4 +279,110 @@ p {
   .contact h3 {
     font-size: 1.2rem;
   }
+
+
+/* dropdown nav -----------------------------------------------------------------------*/
+.nav li {
+  /* float: left; */
 }
+.nav li a {
+  padding: 20px 30px;
+}
+.nav .menu {
+  clear: none;
+  float: right;
+  max-height: none;
+}
+
+.nav {
+  background-color: #353130;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.nav ul {
+  margin: 0 auto!important;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  /* background-color: #353130; */
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  /* background-color: #fff; */
+}
+
+.nav .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.nav .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding-left: 20px;
+  position: relative;
+  user-select: none;
+}
+
+.nav .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 3px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 22px;
+}
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+  background: white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+
+}
+
+.nav .menu-icon .navicon:before {
+  top: 6px;
+}
+
+.nav .menu-icon .navicon:after {
+  top: -6px;
+}
+
+/* menu btn */
+
+.nav .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+}
+

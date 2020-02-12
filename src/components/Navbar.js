@@ -18,8 +18,10 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav>
-                <ul id='menu'>
+            <nav className="nav">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul className='menu'>
                     <NavItem item='Home' toLink='/' activec={this.activeitem} />
                     <NavItem item='About' toLink='/about' activec={this.activeitem} />
                     <NavItem item='Education' toLink='/education' activec={this.activeitem} />
