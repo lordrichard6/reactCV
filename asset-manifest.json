@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/reactCV/static/css/main.77658374.chunk.css",
+    "main.js": "/reactCV/static/js/main.edd69fdc.chunk.js",
+    "main.js.map": "/reactCV/static/js/main.edd69fdc.chunk.js.map",
+    "runtime-main.js": "/reactCV/static/js/runtime-main.1a8846ec.js",
+    "runtime-main.js.map": "/reactCV/static/js/runtime-main.1a8846ec.js.map",
+    "static/js/2.595573f3.chunk.js": "/reactCV/static/js/2.595573f3.chunk.js",
+    "static/js/2.595573f3.chunk.js.map": "/reactCV/static/js/2.595573f3.chunk.js.map",
+    "index.html": "/reactCV/index.html",
+    "precache-manifest.fb258aa500f3efb7bb527080be361634.js": "/reactCV/precache-manifest.fb258aa500f3efb7bb527080be361634.js",
+    "service-worker.js": "/reactCV/service-worker.js",
+    "static/css/main.77658374.chunk.css.map": "/reactCV/static/css/main.77658374.chunk.css.map",
+    "static/js/2.595573f3.chunk.js.LICENSE.txt": "/reactCV/static/js/2.595573f3.chunk.js.LICENSE.txt",
+    "static/media/img-1.png": "/reactCV/static/media/img-1.c460a78e.png",
+    "static/media/img-2.png": "/reactCV/static/media/img-2.25466999.png",
+    "static/media/img-3.png": "/reactCV/static/media/img-3.69ef07d7.png",
+    "static/media/img-5.png": "/reactCV/static/media/img-5.6371e1ab.png",
+    "static/media/img-6.png": "/reactCV/static/media/img-6.eb05b39a.png",
+    "static/media/me.jpg": "/reactCV/static/media/me.b67188cb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a8846ec.js",
+    "static/js/2.595573f3.chunk.js",
+    "static/css/main.77658374.chunk.css",
+    "static/js/main.edd69fdc.chunk.js"
+  ]
+}
