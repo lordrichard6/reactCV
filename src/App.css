@@ -165,10 +165,11 @@ p {
   border-radius: 6px;
   background-size: cover;
   min-height: 7rem;
+  box-shadow: inset 60px 0 100px #000;
 }
 
 .projectcard a {
-  color: aliceblue;
+  color: white;
 }
 
 .projectcard:hover {
