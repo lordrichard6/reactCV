@@ -13,9 +13,9 @@ class Projects extends Component {
         return (
             <div className='condiv'>
                 <h1 className='subtopic'>Personal Projects</h1>
-                <ProjectCard back={img7} title='To Do' link='https://lordrichard-svelte-todo.netlify.com/' tool='Sveltejs' text=''/>
-                <ProjectCard back={img1} title='Face Detection App' link='https://reizinho-face-detect-app.herokuapp.com/' tool='Reactjs' text=''/>
+                <ProjectCard back={img1} title='Face Detection App' link='https://pauloreizinho-facerecognition.netlify.com/' tool='Reactjs' text=''/>
                 <ProjectCard back={img2} title='RoboFriends' link='https://lordrichard6.github.io/robofriends/' tool='React-Redux' text=''/>
+                <ProjectCard back={img7} title='To Do' link='https://lordrichard-svelte-todo.netlify.com/' tool='Sveltejs' text=''/>
                 <ProjectCard back={img3} title='Netflix' link='https://pauloreizinho-netflix.netlify.com/' tool='HTML5, CSS' text=''/>
                 <ProjectCard back={img4} title='FlappyBird' link='https://pauloreizinho-flappybird.netlify.com/' tool='Vanila JS' text=''/>
             </div>
