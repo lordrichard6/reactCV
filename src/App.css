@@ -103,7 +103,7 @@ a:hover {
 }
 
 .social i:hover {
-  color: #ffffff;
+  color: #292828;
 }
 /* social */
 
@@ -134,17 +134,22 @@ p {
   border-radius: 6px;
   display: flex;
   margin: 30px 0 30px 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.widecard a {
+  text-decoration: underline;
 }
 
 .experience .btn {
   margin: 2rem 6rem;
 }
 
-.widecard:hover {
+/* .widecard:hover {
   color: #353130;
   background: #d4d5d6;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+} */
 
 .skills ul li {
   list-style-type: none;
@@ -235,16 +240,9 @@ p {
     padding: 20px 40px;
     margin-top: 4rem;
   }
-  
-  nav ul {
-    /* display: flex; */
-  }
 
   nav ul li {
     margin: 10px;
-  }
-  .profilepic {
-    /* margin: 0; */
   }
 
   .typingeffect {
@@ -284,9 +282,6 @@ p {
 
 
 /* dropdown nav -----------------------------------------------------------------------*/
-.nav li {
-  /* float: left; */
-}
 .nav li a {
   padding: 20px 30px;
 }
