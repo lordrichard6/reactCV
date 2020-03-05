@@ -244,7 +244,7 @@ p {
     margin: 10px;
   }
   .profilepic {
-    margin: 0;
+    /* margin: 0; */
   }
 
   .typingeffect {

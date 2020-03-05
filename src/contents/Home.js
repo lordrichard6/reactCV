@@ -12,7 +12,6 @@ class Home extends Component {
                 <Tilt className="Tilt" options={{ max : 45 }} style={{ height: 250, width: 250 }} >
                    <img src={profilepic} className='profilepic' alt="me"/> 
                 </Tilt>
-                
                 <ReactTypingEffect className='typingeffect' text={["My name is Paulo Reizinho", 'I am a developer', 'Welcome to my CV page', '...', 'please UX is very simple', 'click on a section on the left', '...' , 'no need to stay here all day']} speed={100} eraseDelay={700} />
                 <Social />
             </div>
