@@ -1,0 +1,70 @@
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+   
+   input, textarea {
+        border:0; outline:0;
+        padding: 1em;
+        border-radius: .8rem;
+
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+        box-shadow: 0 2px 2px rgba(black, 0.1);
+        resize: none;
+     
+    &:focus {
+        box-shadow: 0 0px 2px rgba(red, 1)!important;
+     }
+   }
+   
+   #input-submit {
+        color: $color-white; 
+        background: $color-primary;
+        cursor: pointer;
+        
+        &:hover {
+            box-shadow: 0 3px 3px 3px rgba(#aaa, 0.6);
+        }
+   }
+   
+   textarea {
+       height: 21rem;
+   }
+ }
+ 
+ 
+ .half {
+   float: left;
+   width: 48%;
+   margin-bottom: 1em;
+ }
+ 
+ .right { width: 50%; }
+ 
+ .left {
+      margin-right: 2%; 
+ }
+ 
+ 
+ @media (max-width: 480px) {
+   .half {
+      width: 100%; 
+      float: none;
+      margin-bottom: 0; 
+   }
+ }
+ 
+ 
+ /* Clearfix */
+ .cf:before,
+ .cf:after {
+     content: " "; /* 1 */
+     display: table; /* 2 */
+ }
+ 
+ .cf:after {
+     clear: both;
+ }

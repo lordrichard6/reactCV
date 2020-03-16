@@ -1,0 +1,38 @@
+.section-home {
+    padding: 20rem 10rem;
+    height: 100vh;
+}
+
+.section-about {
+    height: 100vh;
+    padding: 6rem;
+    p {
+        font-size: $font-p;
+    }
+}
+
+.section-education {
+    // height: 100vh;
+}
+
+.section-skills {
+    height: 100vh;
+    ul li {
+        list-style-type: none;
+        margin: 30px; 
+    }
+
+}
+
+.section-experience {
+    height: 100vh;
+}
+
+.section-projects {
+    // height: 100vh;
+}
+
+.section-contact {
+    height: 100vh;
+}
+

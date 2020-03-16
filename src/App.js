@@ -8,36 +8,38 @@ import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Projects from './contents/Projects';
 
-import Navbar from './components/Navbar';
-import './App.css';
+import Navigation from './components/Navigation';
+import './sass/main.scss';
 
 
 function App() {
   return (
     <Router>
-      <div className='App'>
-        <Navbar />
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route exact path='/about'>
-          <About />
-        </Route>
-        <Route exact path='/education'>
-          <Education />
-        </Route>
-        <Route exact path='/skills'>
-          <Skills />
-        </Route>
-        <Route exact path='/experience'>
-          <Experience />
-        </Route>
-        <Route exact path='/projects'>
-          <Projects />
-        </Route>
-        <Route exact path='/Contact'>
-          <Contact />
-        </Route>
+      <div className='App container-fluid'>
+        <div className="row">
+          <Navigation />
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/about'>
+            <About />
+          </Route>
+          <Route exact path='/education'>
+            <Education />
+          </Route>
+          <Route exact path='/skills'>
+            <Skills />
+          </Route>
+          <Route exact path='/experience'>
+            <Experience />
+          </Route>
+          <Route exact path='/projects'>
+            <Projects />
+          </Route>
+          <Route exact path='/Contact'>
+            <Contact />
+          </Route>
+        </div>
       </div>
     </Router>
   );

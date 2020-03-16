@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 
 import img1 from '../img/img-1.png';
 import img2 from '../img/img-2.png';
-import img3 from '../img/img-3.png';
+import img3 from '../img/img-3.jpg';
 import img4 from '../img/img-4.png';
 import img7 from '../img/img-7.png';
 import img8 from '../img/img-8.png';
@@ -12,14 +12,69 @@ import img8 from '../img/img-8.png';
 class Projects extends Component {
     render() {
         return (
-            <div className='condiv'>
-                <h1 className='subtopic'>Personal Projects</h1>
-                <ProjectCard back={img8} title='Monkey Circus' link='https://monkeycircus-2z4e865i4.now.sh' tool='Next.js' text=''/>
-                <ProjectCard back={img1} title='Face Detection App' link='https://pauloreizinho-facerecognition.netlify.com/' tool='React.js' text=''/>
-                <ProjectCard back={img2} title='RoboFriends' link='https://lordrichard6.github.io/robofriends/' tool='React-Redux' text=''/>
-                <ProjectCard back={img7} title='To Do' link='https://lordrichard-svelte-todo.netlify.com/' tool='Svelte.js' text=''/>
-                <ProjectCard back={img3} title='Netflix' link='https://pauloreizinho-netflix.netlify.com/' tool='HTML5, CSS' text=''/>
-                <ProjectCard back={img4} title='FlappyBird' link='https://pauloreizinho-flappybird.netlify.com/' tool='Vanila JS' text=''/>
+            <div className='section-projects col col-lg-9'>
+
+                <div className="u-center-text u-margin-bottom-medium u-margin-top-medium">
+                    <h1 className='heading-secondary'>My Projects</h1>
+                </div>
+
+                <div className="row justify-content-center">
+                    <ProjectCard 
+                                back={img8} 
+                                title='Monkey Circus' 
+                                link='https://monkeycircus-2z4e865i4.now.sh' 
+                                tool1='React.js'
+                                tool2='Next.js'
+                                tool3='Next.js'
+                                tool4='Next.js'
+                                tool5='Next.js'/>
+                    <ProjectCard 
+                                back={img1} 
+                                title='Face Detection App' 
+                                link='https://pauloreizinho-facerecognition.netlify.com/' 
+                                tool1='React.js'
+                                tool2='API'
+                                tool3='Next.js'
+                                tool4='Next.js'
+                                tool5='Next.js'/>
+                    <ProjectCard 
+                                back={img2} 
+                                title='RoboFriends' 
+                                link='https://lordrichard6.github.io/robofriends/' 
+                                tool1='React.js'
+                                tool2='Redux'
+                                tool3='Next.js'
+                                tool4='Next.js'
+                                tool5='Next.js'/>
+                    <ProjectCard 
+                                back={img7} 
+                                title='To Do' 
+                                link='https://lordrichard-svelte-todo.netlify.com/' 
+                                tool1='Svelte.js'
+                                tool2='Next.js'
+                                tool3='Next.js'
+                                tool4='Next.js'
+                                tool5='Next.js'/>
+                    <ProjectCard 
+                                back={img3} 
+                                title='Netflix' 
+                                link='https://pauloreizinho-netflix.netlify.com/' 
+                                tool1='HTML5'
+                                tool2='CSS'
+                                tool3='JavaScript'
+                                tool4='Next.js'
+                                tool5='Next.js'/>
+                    <ProjectCard 
+                                back={img4} 
+                                title='FlappyBird' 
+                                link='https://pauloreizinho-flappybird.netlify.com/' 
+                                tool1='Vanila JS'
+                                tool2='Next.js'
+                                tool3='Next.js'
+                                tool4='Next.js'
+                                tool5='Next.js'/>
+                </div>
+                
             </div>
         )
     }

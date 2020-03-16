@@ -1,0 +1,117 @@
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+
+@import './components/contact';
+@import './components/study';
+@import './components/project-card';
+
+@import './layout/navigation';
+
+@import './pages/home';
+
+:root {
+  --sidebar-flex: 1.5;
+//   --fontsize-p: 1.2rem;
+}
+
+body {
+  color: $color-primary;
+}
+
+.App {
+//   display: flex;
+//   width: 100vw;
+    height: 100vh;
+}
+
+
+.profilepic {
+  border-radius: 50%;
+  width: 200px;
+  margin: 30px;
+}
+
+
+
+/* active class */
+.active {
+  font-weight: bolder;
+}
+/* active class */
+
+
+.social i {
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+  transition: all .2s;
+}
+
+.social i:hover {
+  color: #292828;
+}
+/* social */
+
+/* about */
+.subtopic {
+  margin: 10px 10px 30px 10px !important;
+}
+
+
+.experience .btn {
+  margin: 2rem 6rem;
+}
+
+.skills ul li {
+  list-style-type: none;
+  margin: 30px;
+}
+/* education and experience */
+
+/* work projetcs */
+.workproj a {
+  color: $color-primary;
+  padding-left: 4rem;
+}
+
+/* work projetcs */
+
+/* projects */
+.projectcard {
+  border-radius: 6px;
+  background-size: cover;
+  min-height: 7rem;
+  box-shadow: inset 60px 0 100px #000;
+}
+
+.projectcard a {
+  color: white;
+}
+
+.projectcard:hover {
+  background: $color-primary!important;
+}
+/* projects */
+
+.btn {
+  margin-left: 10px;
+  background-color: $color-primary;
+}
+
+.btn:hover {
+  background-color: #929292;
+}
+
+.btn a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn a:hover {
+  color: #e4e4e4;
+}
