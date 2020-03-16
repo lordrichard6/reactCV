@@ -39,7 +39,7 @@ class Contact extends Component {
             message: this.state.message
         }
 
-        axios.post('API_URI', data)
+        axios.post('https://react-cv-node.now.sh/', data)
             .then( res => {
                 this.setState({ sent: true }, this.resetForm())
             })
@@ -61,7 +61,7 @@ class Contact extends Component {
                     <div class="half left cf">
                         <input type="text" id="input-name" placeholder="Name" maxlength="50" onChange={e => this.setState({ name: e.target.value})} value={this.state.name} required/>
                         <input type="email" id="input-email" placeholder="Email address" maxlength="50" onChange={(e) => this.setState({ email: e.target.value})} value={this.state.email} required/>
-                        <input type="text" id="input-subject" placeholder="Subject" maxlength="100" onChange={(e) => this.setState({ subject: e.target.value})} value={this.state.email} required/>
+                        <input type="text" id="input-subject" placeholder="Subject" maxlength="100" onChange={(e) => this.setState({ subject: e.target.value})} value={this.state.subject} required/>
                     </div>
                     <div class="half right cf">
                         <textarea name="message" type="text" id="input-message" placeholder="Message" maxlength="1000" onChange={e => this.setState({ message: e.target.value})} value={this.state.message} required></textarea>
