@@ -35,26 +35,26 @@ class Projects extends Component {
                                 tool1='React'
                                 tool2='Image recognition API'
                                 tool3='PWA'
-                                tool4='Next.js'
-                                tool5='Next.js'/>
+                                tool4='CSS'
+                                tool5='HTML5'/>
                     <ProjectCard 
                                 back={img2} 
                                 title='RoboFriends' 
                                 link='https://lordrichard6.github.io/robofriends/' 
                                 tool1='React'
                                 tool2='Redux'
-                                tool3='Next.js'
-                                tool4='Next.js'
-                                tool5='Next.js'/>
+                                tool3='Responsive'
+                                tool4='CSS'
+                                tool5='HTML5'/>
                     <ProjectCard 
                                 back={img7} 
                                 title='To Do' 
                                 link='https://lordrichard-svelte-todo.netlify.com/' 
                                 tool1='Svelte 3'
-                                tool2='Next.js'
-                                tool3='Next.js'
-                                tool4='Next.js'
-                                tool5='Next.js'/>
+                                tool2='CSS'
+                                tool3='HTML5'
+                                tool4='Responsive'
+                                tool5=''/>
                     <ProjectCard 
                                 back={img3} 
                                 title='Netflix' 
@@ -62,8 +62,8 @@ class Projects extends Component {
                                 tool1='HTML5'
                                 tool2='CSS'
                                 tool3='JavaScript'
-                                tool4='Next.js'
-                                tool5='Next.js'/>
+                                tool4='Responsive'
+                                tool5=''/>
                     <ProjectCard 
                                 back={img4} 
                                 title='FlappyBird' 
@@ -71,8 +71,8 @@ class Projects extends Component {
                                 tool1='Vanila JS'
                                 tool2='HTML'
                                 tool3='CSS'
-                                tool4='Next.js'
-                                tool5='Next.js'/>
+                                tool4='Game'
+                                tool5=''/>
                 </div>
                 
             </div>
