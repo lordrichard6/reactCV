@@ -23,25 +23,25 @@ class Projects extends Component {
                                 back={img8} 
                                 title='Monkey Circus' 
                                 link='https://monkeycircus-2z4e865i4.now.sh' 
-                                tool1='React.js'
+                                tool1='React'
                                 tool2='Next.js'
-                                tool3='Next.js'
-                                tool4='Next.js'
-                                tool5='Next.js'/>
+                                tool3='Data fetching'
+                                tool4='SSR'
+                                tool5='SPA'/>
                     <ProjectCard 
                                 back={img1} 
                                 title='Face Detection App' 
                                 link='https://pauloreizinho-facerecognition.netlify.com/' 
-                                tool1='React.js'
-                                tool2='API'
-                                tool3='Next.js'
+                                tool1='React'
+                                tool2='Image recognition API'
+                                tool3='PWA'
                                 tool4='Next.js'
                                 tool5='Next.js'/>
                     <ProjectCard 
                                 back={img2} 
                                 title='RoboFriends' 
                                 link='https://lordrichard6.github.io/robofriends/' 
-                                tool1='React.js'
+                                tool1='React'
                                 tool2='Redux'
                                 tool3='Next.js'
                                 tool4='Next.js'
@@ -50,7 +50,7 @@ class Projects extends Component {
                                 back={img7} 
                                 title='To Do' 
                                 link='https://lordrichard-svelte-todo.netlify.com/' 
-                                tool1='Svelte.js'
+                                tool1='Svelte 3'
                                 tool2='Next.js'
                                 tool3='Next.js'
                                 tool4='Next.js'
@@ -69,8 +69,8 @@ class Projects extends Component {
                                 title='FlappyBird' 
                                 link='https://pauloreizinho-flappybird.netlify.com/' 
                                 tool1='Vanila JS'
-                                tool2='Next.js'
-                                tool3='Next.js'
+                                tool2='HTML'
+                                tool3='CSS'
                                 tool4='Next.js'
                                 tool5='Next.js'/>
                 </div>

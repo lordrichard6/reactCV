@@ -115,3 +115,18 @@ body {
 .btn a:hover {
   color: #e4e4e4;
 }
+
+@media all and (max-width: 994px) {
+
+    .col {
+      padding: 0 2.5rem;
+    }
+
+    .card {
+      height: 65vh;
+    }
+
+    .projectcard {
+      min-width: 30rem;
+    }   
+}

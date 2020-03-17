@@ -52,11 +52,12 @@
         position: absolute;
         top: 12rem;
         right: 2rem;
-        width: 75%;
+        width: 85%;
     }
 
     &__heading-span {
         padding: 1rem 1.5rem;
+        line-height: 5.4rem;
         box-decoration-break: clone;
         background-image: linear-gradient(to right bottom, rgba($color-primary-light, .85), rgba($color-primary-dark, .85));
     }

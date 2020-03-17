@@ -29,7 +29,7 @@ class Navigation extends Component {
             <div className='navigation col col-md-12 col-lg-3'>
                 <input className="navigation__checkbox" type="checkbox" id="navi-toggle" />
                 <label for="navi-toggle" className="navigation__button">
-                    <span className="navicon"></span>
+                    <span className="navigation__icon"></span>
                 </label>
                 <div class="navigation__background">&nbsp;</div>
                 <nav className="navigation__nav">
