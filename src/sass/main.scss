@@ -7,6 +7,7 @@
 @import './base/utilities';
 
 @import './components/contact';
+@import './components/profile-photo';
 @import './components/study';
 @import './components/project-card';
 
@@ -27,13 +28,6 @@ body {
 //   display: flex;
 //   width: 100vw;
     height: 100vh;
-}
-
-
-.profilepic {
-  border-radius: 50%;
-  width: 200px;
-  margin: 30px;
 }
 
 
