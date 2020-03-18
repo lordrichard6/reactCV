@@ -7,6 +7,7 @@ import img3 from '../img/img-3.jpg';
 import img4 from '../img/img-4.png';
 import img7 from '../img/img-7.png';
 import img8 from '../img/img-8.png';
+import img9 from '../img/img-9.jpg';
 
 
 class Projects extends Component {
@@ -19,6 +20,15 @@ class Projects extends Component {
                 </div>
 
                 <div className="row justify-content-center">
+                    <ProjectCard 
+                                back={img9} 
+                                title='Skytours' 
+                                link='https://reizinho-skytours.netlify.com/' 
+                                tool1='React'
+                                tool2='Sass'
+                                tool3='Responsive'
+                                tool4='Modern UI'
+                                tool5='HTML5'/>
                     <ProjectCard 
                                 back={img8} 
                                 title='Monkey Circus' 
@@ -57,7 +67,7 @@ class Projects extends Component {
                                 tool5=''/>
                     <ProjectCard 
                                 back={img3} 
-                                title='Netflix' 
+                                title='Netflix Copy' 
                                 link='https://pauloreizinho-netflix.netlify.com/' 
                                 tool1='HTML5'
                                 tool2='CSS'
