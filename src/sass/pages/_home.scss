@@ -9,6 +9,15 @@
 .section-about {
     height: 100vh;
     padding: 6rem;
+
+    @include responsive(tab-land) {
+        margin: 4rem;
+    }
+
+    @include responsive(phone) {
+        margin: 2rem;
+    }
+
     p {
         font-size: $font-p;
     }
@@ -16,10 +25,18 @@
 
 .section-education {
     // height: 100vh;
+    @include responsive(tab-land) {
+        margin-top: 4rem;
+    }
 }
 
 .section-skills {
     height: 100vh;
+
+    @include responsive(tab-land) {
+        margin: 4rem;
+    }
+
     ul li {
         list-style-type: none;
         margin: 30px; 
@@ -28,14 +45,30 @@
 }
 
 .section-experience {
-    height: 100vh;
+    // height: 100vh;
+
+    @include responsive(tab-land) {
+        margin-top: 4rem;
+    }
 }
 
 .section-projects {
     // height: 100vh;
+
+    @include responsive(tab-land) {
+        margin-top: 4rem;
+    }
 }
 
 .section-contact {
     height: 100vh;
+
+    @include responsive(tab-land) {
+        margin: 4rem;
+    }
+
+    @include responsive(phone) {
+        margin: 4rem 2rem;
+    }
 }
 

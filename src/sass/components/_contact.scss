@@ -49,7 +49,7 @@ form {
  }
  
  
- @media (max-width: 480px) {
+ @include responsive(phone) {
    .half {
       width: 100%; 
       float: none;

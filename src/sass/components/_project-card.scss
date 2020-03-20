@@ -5,6 +5,11 @@
     min-width: 35rem;
     max-width: 35rem;
 
+    border-radius: 6px;
+    background-size: cover;
+    min-height: 7rem;
+    box-shadow: inset 60px 0 100px #000;
+
     &__side {
         height: 50rem;
         transition: all .8s ease;
@@ -24,6 +29,10 @@
         &--back {
             transform: rotateY(-180deg);
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+        }
+
+        a {
+            color: white;
         }
     }
 

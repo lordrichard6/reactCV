@@ -48,7 +48,7 @@
         }
     }
 
-    @media all and (max-width: 994px) {
+    @include responsive(tab-port) {
         // display: none;
         position: absolute;
 	    left: -100rem;
@@ -95,7 +95,7 @@
         &__list {
             position: absolute;
             top: 50%;
-            left: 75%;
+            left: 70%;
             transform: translate(-50%, -50%);;
             list-style: none;
             text-align: center;
@@ -171,7 +171,7 @@
         }
     }
 
-    @media all and (min-width: 500px) {
+    @media all and (min-width: 600px) {
         &__list {
             left: 60%;
         }

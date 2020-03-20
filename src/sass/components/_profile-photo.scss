@@ -1,7 +1,7 @@
 
-  .profile {
-    position: relative;
-    margin-top: 50rem;
+.profile {
+position: relative;
+margin-top: 50rem;
 
     &__photo {
         width: 30rem;
@@ -34,9 +34,12 @@
             z-index: 20;
         }
 
-        @media all and (max-width: 994px) {
-            width: 20rem;
+        @include responsive(tab-land) {
             transform: translateX(15%);
+        }
+
+        @include responsive(phone) {
+            width: 20rem;
         }
     }
 

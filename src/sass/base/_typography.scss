@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     font-size: $default-font-size;
     line-height: 1.7;
-    color: $color-grey-dark;
+    color: $color-primary;
     // padding: 3rem;
 }
 
@@ -50,7 +50,8 @@ body {
         transform: scale(1.1);
         text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
     }
-    @media all and (max-width: 994px) {
+    
+    @include responsive(tab-land) {
         margin-top: 7rem;
     }
 }
