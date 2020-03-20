@@ -4,12 +4,12 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <section className="section-about col col-lg-9">
+            <section className="section-about col col-xl-9">
                <div className="u-center-text u-margin-bottom-big">
                    <h1 className="heading-secondary">About me</h1>
                </div> 
                <div className="row">
-                   <div className="col col-md-12 col-lg-12">
+                   <div className="col col-lg-12">
                        <h2 className="heading-terciary u-margin-bottom-small">
                            My name is Paulo R. Lopes Reizinho
                        </h2>
