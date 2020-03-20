@@ -19,7 +19,7 @@ class Skills extends Component {
     }
     render() {
         return (
-            <div className='section-skills col col-lg-9'>
+            <div className='section-skills col col-xl-9'>
                 <div className="u-center-text u-margin-bottom-medium u-margin-top-medium">
                     <h1 className='heading-secondary'>My Skills</h1>
                 </div>

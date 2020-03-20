@@ -55,7 +55,7 @@ class Contact extends Component {
     
     render() {
         return (
-            <div className='section-contact col col-lg-9'>
+            <div className='section-contact col col-xl-9'>
                 <div className="u-center-text u-margin-bottom-medium u-margin-top-medium">
                     <h1 className='heading-secondary'>Contact Me</h1>
                 </div>
