@@ -28,7 +28,7 @@ class Projects extends Component {
                                 tool2='Sass'
                                 tool3='Responsive'
                                 tool4='Modern UI'
-                                tool5='HTML5'/>
+                                git='https://github.com/lordrichard6/skytours'/>
                     <ProjectCard 
                                 back={img8} 
                                 title='Monkey Circus' 
@@ -37,7 +37,7 @@ class Projects extends Component {
                                 tool2='Next.js'
                                 tool3='Data fetching'
                                 tool4='SSR'
-                                tool5='SPA'/>
+                                git='https://github.com/lordrichard6/monkeycircus'/>
                     <ProjectCard 
                                 back={img1} 
                                 title='Face Detection App' 
@@ -46,7 +46,7 @@ class Projects extends Component {
                                 tool2='Image recognition API'
                                 tool3='PWA'
                                 tool4='CSS'
-                                tool5='HTML5'/>
+                                git='https://github.com/lordrichard6/faceRecognition'/>
                     <ProjectCard 
                                 back={img2} 
                                 title='RoboFriends' 
@@ -55,7 +55,7 @@ class Projects extends Component {
                                 tool2='Redux'
                                 tool3='Responsive'
                                 tool4='CSS'
-                                tool5='HTML5'/>
+                                git='https://github.com/lordrichard6/robofriends'/>
                     <ProjectCard 
                                 back={img7} 
                                 title='To Do' 
@@ -64,7 +64,7 @@ class Projects extends Component {
                                 tool2='CSS'
                                 tool3='HTML5'
                                 tool4='Responsive'
-                                tool5=''/>
+                                git='https://github.com/lordrichard6/svelte_todo'/>
                     <ProjectCard 
                                 back={img3} 
                                 title='Netflix Copy' 
@@ -73,7 +73,7 @@ class Projects extends Component {
                                 tool2='CSS'
                                 tool3='JavaScript'
                                 tool4='Responsive'
-                                tool5=''/>
+                                git='https://github.com/lordrichard6/netflix_landingpage'/>
                     <ProjectCard 
                                 back={img4} 
                                 title='FlappyBird' 
@@ -82,7 +82,7 @@ class Projects extends Component {
                                 tool2='HTML'
                                 tool3='CSS'
                                 tool4='Game'
-                                tool5=''/>
+                                git='https://github.com/lordrichard6/flappyProj'/>
                 </div>
                 
             </div>

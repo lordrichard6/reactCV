@@ -18,10 +18,10 @@ function App() {
       <div className='App container-fluid'>
         <div className="row">
           <Navigation />
-          <Route exact path='/'>
+          <Route exact path='/' component={Home}>
             <Home />
           </Route>
-          <Route exact path='/about'>
+          <Route exact path='/about' component={Home}>
             <About />
           </Route>
           <Route exact path='/education'>

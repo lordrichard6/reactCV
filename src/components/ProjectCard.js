@@ -19,7 +19,7 @@ class ProjectCard extends Component {
                             <li>{this.props.tool2}</li>
                             <li>{this.props.tool3}</li>
                             <li>{this.props.tool4}</li>
-                            <li>{this.props.tool5}</li>
+                            <li><a href={this.props.git} target='_blank' rel='noopener noreferrer'><i class='fab fa-github'></i></a></li>
                         </ul>
                     </div>
                 </div>

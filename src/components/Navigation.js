@@ -7,6 +7,7 @@ class Navigation extends Component {
         super(props);
         this.state = {'NavigationLinkActive':''}
     }
+
     activeitem = (x) => {
         if (this.state.NavigationLinkActive.length > 0) {
             document.getElementById(this.state.NavigationLinkActive).classList.remove('active');
@@ -14,11 +15,13 @@ class Navigation extends Component {
         this.setState({'NavigationLinkActive':x}, () => {
             document.getElementById(this.state.NavigationLinkActive).classList.add('active');
         })
+
     }
 
     render() {
 
         const navListItems = document.getElementsByClassName("navigation__item");
+
         for(let i = 0; i < navListItems.length; i++){ 
             navListItems[i].onclick = () => {
                 document.getElementById("navi-toggle").checked = false;
