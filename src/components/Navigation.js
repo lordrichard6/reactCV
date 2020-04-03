@@ -40,7 +40,7 @@ class Navigation extends Component {
                         <NavigationLink item='Home' toLink='/' activec={this.activeitem} />
                         <NavigationLink item='About' toLink='/about' activec={this.activeitem} />
                         <NavigationLink item='Education' toLink='/education' activec={this.activeitem} />
-                        <NavigationLink item='Skills' toLink='/skills' activec={this.activeitem} />
+                        <NavigationLink item='Tecnologies' toLink='/skills' activec={this.activeitem} />
                         <NavigationLink item='Experience' toLink='/experience' activec={this.activeitem} />
                         <NavigationLink item='Projects' toLink='/projects' activec={this.activeitem} />
                         <NavigationLink item='Contact' toLink='/contact' activec={this.activeitem} />

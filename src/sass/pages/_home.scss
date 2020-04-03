@@ -34,14 +34,23 @@
     height: 100vh;
 
     @include responsive(tab-land) {
-        margin: 4rem;
+        margin-top: 4rem;
     }
 
-    ul li {
-        list-style-type: none;
-        margin: 30px; 
-    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
+        ul {
+            margin: 5rem;
+        }
+        
+        li {
+            list-style-type: none;
+            margin: 3rem; 
+        }
+    }
 }
 
 .section-experience {
